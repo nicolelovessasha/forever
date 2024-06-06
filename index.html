@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy birthday</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="photo-background">
+    <img src="love.jpg" class="photo" style="width: 180px; height: 250px; --rotation: 10deg; --top: 10%; --left: 20%;">
+    <img src="love1.jpg" class="photo" style="width: 220px; height: 250px; --rotation: 15deg; --top: 20%; --left: 80%;">
+    <img src="love2.jpg" class="photo" style="width: 230px; height: 180px; --rotation: -5deg; --top: 60%; --left: 70%;">
+    <img src="love3.jpg" class="photo" style="width: 190px; height: 220px; --rotation: 20deg; --top: 60%; --left: 20%;">
+    <img src="love4.jpg" class="photo" style="width: 190px; height: 250px; --rotation: -15deg; --top: 9%; --left: 60%;">
+    <img src="love5.jpg" class="photo" style="width: 250px; height: 190px; --rotation: -15deg; --top: 40%; --left: 3%;">
+    
+    <!-- Додайте більше фотографій тут -->
+</div>
+
+<div class="valentines-day">
+  <div class="envelope"></div>
+  <div class="heart"></div>
+  <div class="text">HAPPY <br>BIRTHDAY <br>MY LOVE!</div>
+  <div class="front"></div>
+</div>
+
+<div id="card">
+  <div class="side one">
+    <img src="love6.jpg" class="photo1">
+    <button id="changePageBtn" class="btn">НАЖМИ СЮДА</button>
+    
+    
+    
+  </div>
+  <div class="side two">
+    <h2>Любимый,</h2>
+    <p>Я поздравляю тебя с днем рождения!</p>
+    <p>Я благодарна Вселенной, что встретила тебя и что знакома с тобой уже 15 лет. С каждым новым годом нашего общения ты раскрываешься все больше для меня с самых разных сторон.Ты стал для меня не только другом, а и любимым человеком.Я хочу проживать с тобой все больше и больше приятных моментов вместе. </p>
+    <p>У тебя все получится! Я верю в тебя и желаю тебе исполнения всех желаний и побед!</p>
+    <p>Я тебя люблю! С днем рождения!</p>
+  </div>
+</div>
+
+<script>
+  // Створюємо функцію, яка буде викликатись при натисканні на кнопку
+  function changePage() {
+      // Змінюємо URL сторінки на новий
+      window.location.href = 'index1.html';
+  }
+
+  // Додаємо обробник подій для кнопки
+  document.getElementById('changePageBtn').addEventListener('click', changePage);
+</script>
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src="./script.js"></script>
+
+</body>
+</html>

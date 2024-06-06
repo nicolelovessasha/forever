@@ -1,0 +1,96 @@
+body {
+  background: #f2c0e2;
+}
+
+div {
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.rEye {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 3;
+}
+.nose {
+  fill: #ffcce6;
+}
+.muzzle {
+  fill: none;
+  stroke: #000;
+}
+.orangeCatColor {
+  fill: #e8a052;
+  stroke: #e58220;
+  stroke-width: 3;
+}
+.stripes {
+  fill: #e58220;
+}
+.rArm {
+  fill: #e8a052;
+  stroke: #e58220;
+  stroke-width: 3;
+}
+.mouth {
+  fill: none;
+  stroke: #e58220;
+  stroke-width: 2;
+}
+.eye {
+  fill: none;
+  stroke: #e58220;
+  stroke-width: 3;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.heart-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.heart {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  color: #ff0000;
+  animation: moveHeart 10s linear infinite;
+  font-size: 20px;
+  z-index: -1;
+}
+
+@keyframes moveHeart {
+  0% {
+      transform: translateY(100vh);
+  }
+  100% {
+      transform: translateY(-10vh);
+  }
+}
+
+.btn {
+  background-color: #4d0e0e; /* Колір фону кнопки */
+  border: none; /* Відсутність рамки */
+  color: white; /* Колір тексту */
+  padding: 15px 32px; /* Внутрішні відступи */
+  text-align: center; /* Вирівнювання тексту по центру */
+  text-decoration: none; /* Відсутність підкреслення */
+  display: inline-block; /* Блочний елемент */
+  font-size: 16px; /* Розмір шрифту */
+  margin: 20px 680px; /* Зовнішні відступи */
+  cursor: pointer; /* Курсор */
+  border-radius: 10px; /* Закругленість кутів */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тінь */
+  transition: background-color 0.3s; /* Анімація зміни кольору фону */
+}
+
